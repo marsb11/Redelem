@@ -24,7 +24,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Menu de Navegação -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" 
@@ -77,67 +77,68 @@
     </header>
 
     <!-- Seção de Cadastro-->
-    <section id="cadastro" class="container content-section text-center">
+    <section  class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Cadastro</h2>
+            <div id="cadastro" class="col-lg-8 col-lg-offset-2">
+                
                 
                 <!-- Aqui vem o FORM de Cadastro -->
+                <br><br><br><br><br>
+                <h2>Cadastro</h2>
                 <div id="formCAD">
                     <form>
-                        <label> NOME </label>  <input type="text" name="nome">  <br />
-                        <label> Email: </label><input type="text" required="required"> <br />
-                        <label> Senha: </label><input type="password" required="required"> <br />
-                        <label> Data de nascimento: </label><input type="date" required="required"> <br />
+                        <label> NOME </label>  <input type="text" name="nome"><br/>
+                        <label> Email: </label><input type="text" required="required"><br/>
+                        <label> Senha: </label><input type="password" required="required"><br/>
+                        <label> Data de nascimento: </label><input type="text" required="required"><br/>
                         <label> Sexo: </label><br/>
                         <input type="radio" name="sexo" value="F"> Feminino
                         <input type="radio" name="sexo" value="M"> Masculino <br/><br/>
                         
                         <ul class="list-inline banner-login-buttons">
                     <li>
-                        <input type="button" value="Cadastrar" href="link" class="btn btn-default btn-lg">
+                        <input type="button" value="Cadastrar" class="btn btn-default btn-lg">
                     </li>
                     <li>
-                        <input type="button" value="Limpar"href="link" class="btn btn-default btn-lg">
+                        <input type="button" value="Limpar" class="btn btn-default btn-lg">
                      </li>
                         </ul>
                     </form>
                 </div>
-                
             </div>
         </div>
     </section>
     
-
     <!-- Seção de Login -->
-    <section id="login" class="content-section text-center">
+    <section class="content-section text-center">
         <div class="login-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    
+            <div id="login" class="container">
+                <div   class="col-lg-8 col-lg-offset-2">
+                <br><br><br><br><br>    
                  <h2>Entrar</h2>
        
                 <!-- Aqui vem o FORM de Login -->    
-                <div id="formCAD">
+                <div>
                     <form>
-                        <p>Email: <input name="email" type="text" size=50/> </p>
-                        <p>Senha:<input  name="senha" type="text" size=10/></p>
+                        <p>Email: <input name="email" type="text" size="50"/> </p>
+                        <p>Senha:<input  name="senha" type="text" size="10"/></p>
 
                         <ul class="list-inline banner-login-buttons">
                     <li>
-                        <input type="button" value="Cadastrar" href="link" class="btn btn-default btn-lg">
+                        <input type="button" value="Entrar" class="btn btn-default btn-lg">
                     </li>
                     <li>
-                        <input type="button" value="Recuperar senha" href="link" class="btn btn-default btn-lg">
+                        <input type="button" value="Recuperar senha" class="btn btn-default btn-lg">
                      </li>
                     <li>
-                        <input type="button" value="Limpar" href="link" class="btn btn-default btn-lg">
+                        <input type="button" value="Limpar" class="btn btn-default btn-lg">
                      </li>
                         </ul>
                     </form> 
                     
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -146,7 +147,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 
-                <img src="img/rl-logo.png">
+                <img src="img/rl-logo.png" alt="logo">
                 <h2>Sobre a rede lembranças</h2>
 
                 <p>Uma rede social que ajuda a exercitar a memória dos usuários. <a> V </a></p>
